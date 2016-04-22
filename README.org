@@ -1,0 +1,46 @@
+#+TITLE: Emacs for Functional Programming
+#+AUTHOR: Zak B. Elep <zak.elep@yoyo-holdings.com>
+
+https://github.com/zakame/emacs-for-fp
+
+* About Me
+
+- @zakame in GitHub, Twitter, FB
+- Co-Founder, Chief Architect, YOYO Holdings
+- Recovering Sysadmin
+- Hacks on Perl, Docker, Emacs, Android
+
+* About This Talk
+
+- Just a short blurb on doing FP with Emacs, not much time for a full
+  talk :D
+- Set up for an Emacs Meetup
+
+* Emacs Lisp
+
+- Emacs is the /modern/ Lisp Machine
+- (Almost) Readily available!
+
+* Common Lisp
+
+- [[https://common-lisp.net/project/slime/][Superior Lisp Interaction Mode for Emacs]]
+- =(require 'cl-lib)= for using CL forms in Emacs Lisp!
+
+* Clojure
+
+- [[https://github.com/clojure-emacs/cider][Clojure Interactive Development Environment that Rocks]]
+
+* Haskell
+
+- [[https://github.com/sdiehl/wiwinwlh][What I Wish I Knew When Learning Haskell]]
+
+* Others
+
+- [[https://www.emacswiki.org/emacs/FunctionalProgramming][FP page in the EmacsWiki]]
+- [[https://github.com/caiorss/Emacs-Elisp-Programming][Emacs Elisp Programming tutorial]]
+- [[http://nic.ferrier.me.uk/blog/2012_07/tips-and-tricks-for-emacslisp][Tips for Elisp programming]]
+
+* Finis
+
+- Emacs Meetup in late May!
+- https://www.facebook.com/groups/emacs.ph
