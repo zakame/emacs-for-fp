@@ -1,0 +1,67 @@
+#+TITLE: FP Meetup #2
+#+STARTUP: indent
+
+* Functional Programming in JS (and Haskell)
+
+- Lambda Calculus
+
+** FP vs OOP
+
+*** FP
+
+- Tight coupling between data and code (operations)
+- Data is the abstraction
+- Mutations/side effects
+
+*** OOP
+
+- Loose coupling
+- Code is the abstraction
+- Immutability
+
+** Underscore.js
+
+- map, filter, reduce
+
+* Clojure
+
+- all its data structures are immutable!
+- modern bracing!
+
+#+BEGIN_SRC emacs-lisp :results silent
+(cider-jack-in)
+#+END_SRC
+
+#+BEGIN_SRC clojure :results silent
+{:foo "bar" :bar 2}
+
+(def a {:foo "bar" :bar 2})
+
+(a :foo)
+#+END_SRC
+
+- AOT compilation!
+
+#+BEGIN_SRC clojure :results silent
+(import '[java.util.Random])
+(def r (new java.util.Random))
+
+(. r nextInt)
+#+END_SRC
+
+- Threading operator =(-> foo bar)=
+
+#+BEGIN_EXAMPLE
+lein uberjar
+#+END_EXAMPLE
+
+** Good libs
+
+- [[https://github.com/boot-clj/boot][boot]] newer build tooling
+- [[https://github.com/ring-clojure/ring][ring]] WSGI like web tooling
+- [[http://www.luminusweb.net/][luminus]] web micro-framework
+- [[https://github.com/weavejester/compojure][compojure]] routing for ring
+- [[https://github.com/bhauman/lein-figwheel][figwheel]] push ClojureScript code to client
+- [[https://github.com/marick/Midje][Midje]] test framework
+
+* Emacs
